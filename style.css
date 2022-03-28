@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* css document */
+
+@media (min-width: 1440px){
+
+}
+
+/*homepage css*/
+.homeheader{
+min-height: 700px;
+background-image: url(../webimages/header-bg.jpg);
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:flex-end;
+
+}
+
+header nav ul {
+  display:flex;
+  justify-content:space-between;
+  list-style-type:none;
+}
+/*targets links themselves*/
+header nav a {
+text-decoration:none;
+  display:block;
+  padding:25px 20px;
+  color:white;
+  font-size:20px;
+}
+/*targets section within the header*/
+
+.welcome{
+
+  position: relative;
+  top:300px;
+  right:500px;
+  display: flex;
+  text-align: center;
+}
+
+.welcomestudio{
+  font-size: 16px;
+  color:white;
+  font-style: serif;
+  font-style: italic;
+
+}
+
+.itsnicetomeetyou{
+  color:white;
+  font-size:30px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+
+button{
+  background-color: #fed136;
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  color:white;
+  border:none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+button:hover{
+  background-color:#212529;
+}
+
+header{
+	font-family: 'Montserrat';
+}
+
+h1{
+	font-family: 'Montserrat', bold;
+      text-align: left;
+      color:#fed136;
+}
+
+
+section div {
+  width:300px;
+ 
+}
+
+
+#services{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+#serviceheading{
+  font-family: 'Montserrat';
+  font-size: 32px;
+}
+
+#lorem1{
+font-size: 16px;
+color:black;
+font-style: italic;
+
+}
+
+.functions{
+  font-family: 'Montserrat';
+  font-size: 24px;
+}
+
+.functiondescrip{
+  font-family: 'Montserrat';
+  font-size: 12px;
+
+}
+
+#section1{
+
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+#bottomline{
+  margin-top: 200px;
+  background-color: black;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:20px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+#copy1{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+/*team page css*/
+
+.webheader {
+  display:flex;
+  justify-content:space-between;
+  list-style-type:none;
+  background-color: black;
+  max-height:80px;  
+}
+
+#team{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+#ourteam{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+#lorem2{
+  font-size: 16px;
+color:black;
+font-style: italic;
+margin-top: 20px;
+
+}
+
+#teamprofile{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+.teamimg{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+#teamlorem{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  width: 700px;
+  margin-top: 80px;
+  margin-left: 250px;
+}
+
+h3{
+  font-family: 'Montserrat';
+}
+
+h5{
+  font-family: 'Montserrat';
+
+}
+
+#modal {
+  position:fixed;
+  top:-400px;
+  width:40%;
+  padding:20px;
+  left:30%;
+  right:30%;
+  border-radius:20px;
+  background-color:white;
+  box-shadow:3px 3px 12px gray;
+  text-align:center;
+}
+#modal h3 {
+  font-weight:bold;
+  color:black;
+  font-size:24px;
+}
+.modal {
+  visibility:hidden;
+}
+.modal_on {
+  visibility:visible;
+}
+
+body div span.material-icons{
+  color:black;
+}
+
+
+
+/* portfolio page css*/
+
+.portimages{
+  width:300px;
+  height: 200px;
+}
+
+#portfolio{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+#lorem3{
+font-size: 16px;
+color:black;
+font-style: italic;
+margin-top: 20px;
+}
+
+#portintro{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+/*contact page css*/
+
+#contact{
+  background-image:url(../webimages/world-map.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contactfooter{
+  margin-top: 600px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:20px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+#contactfooter div{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+
+}
+
+#contactustitle{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+#lorem4{
+font-size: 16px;
+color:black;
+font-style: italic;
+margin-top: 20px;
+color:white;
+}
+
+#contactus{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  margin-top: 80px;
+  color:white;
+}
+
+/*about us page css*/
+
+#aboutustitle{
+display:flex;
+justify-content:center;
+text-align: center;
+margin-right: 60px;
+}
+
+#aboutus{
+   font-family: 'Montserrat';
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+#lorem5{
+font-size: 16px;
+color:black;
+font-style: italic;
+margin-top: 20px;
+}
+
+
+.yellowcircle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  background:#fed136;
+  color:white;
+  text-align: center;
+  font-family:'Montserrat';
+  display: table-cell;
+}
+
+h6{
+   font-family: 'Montserrat';
+   font-style: bold;
+   font-size: 16px;
+}
+
+.placeholder{
+  width: 300px;
+  height: 237.21px;
+  color:white;
+
+}
+
+#humble{
+  text-align: right;
+}
+
+#march{
+  text-align: left;
+  padding-left: 70px;
+}
+
+#December{
+  text-align: right;
+}
+
+#july{
+  text-align: left;
+  padding-left: 70px;
+}
+
+
+
+

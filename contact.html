@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+
+<style>
+
+#contactform{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+grid-template-rows:repeat(2,minmax(200px,auto));
+grid-column-gap:0px;
+grid-row-gap:5px;
+max-width: 960px;
+margin:0 auto;
+}
+
+#contactform div{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:40px;
+text-align: center;
+}
+
+#div1{
+	margin-left: 120px;
+	margin-bottom: 40px;
+
+}
+
+input{
+
+	height: 30px;
+}
+
+textarea{
+	margin-bottom: 16px;
+}
+
+#sendmessagebutton{
+
+	display: flex;
+	justify-content:center;
+	margin-bottom: 10px;
+	margin-left: 275px;
+}
+
+
+</style>
+<head>
+<meta charset="utf-8">
+<title>Studio Website</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Slab:wght@500&display=swap" rel="
+stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<header class="webheader">
+	
+<a href="index.html"><h1>Studio</h1></a>	
+      <nav id="mainnav">
+        <ul>
+          <li> <a href="index.html">SERVICES</a></li> 
+          <li> <a href="portfolio.html">PORTFOLIO</a></li>
+          <li> <a href="about.html">ABOUT</a></li>
+          <li> <a href="team.html">TEAM</a></li>
+          <li> <a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+     
+      </header>
+
+
+
+<body id="contact">
+
+
+
+<section id="contactustitle">
+<div>
+<h2 id="contactus">CONTACT US</h2>
+<p id="lorem4">Lorem ipsum dolor sit amet consectetur.</p>
+</div>
+</section>
+
+<section id="contactform">
+<div id="div1">
+<form>
+<label for="yname"></label><br>
+<input type="text" id="yname"name="yname" value="Your Name" size="40"><br>
+<label for="yemail"></label><br>
+<input type="text" id="yemail"name="yemail" value="Your Email" size="40"><br>
+<label for="yphone"></label><br>
+<input type="text" id="yphone"name="yphone" value="Your Phone" size="40"><br>
+</form>
+</div>
+
+<div>
+<form>
+<textarea name="Ymessage"rows="9" cols="50">Your Message</textarea>
+</form>
+</div>
+
+<div id="sendmessagebutton">
+
+<button type="button" name="button">SEND MESSAGE</button>
+</div>
+</section>
+
+<script>
+	
+var btns = document.getElementsByTagName('button')
+
+btns[0].addEventListener('click',helloAlert)
+
+
+function helloAlert(){
+	
+	alert('Your Form Has Been Submitted:Thank You!')
+
+}
+
+
+
+</script>
+
+
+</body>
+
+
+<footer id="contactfooter">
+  <div>
+	<p class="copy">&copy;Copyright © Your Website 2022</p>
+  <img src="webimages/social-icons.png">
+	<p class="policy1">Privacy Policy</p>
+	<p class="policy1">Terms of Use</p>
+  </div>
+</footer>
+
+</html>
